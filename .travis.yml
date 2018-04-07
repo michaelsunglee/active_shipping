@@ -1,6 +1,8 @@
 language: ruby
 script: bundle exec rake test
 sudo: false
+before_install:
+  - travis_retry gem install bundler
 
 rvm:
 - "2.2.2"
