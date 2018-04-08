@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gemspec path: '..'
 
-gem 'activesupport', :github => 'rails'
+gem 'activesupport', :github => 'rails', :submodules => true
 # git 'https://github.com/rails/rails.git' do
 #   gem 'activesupport'
 # end
