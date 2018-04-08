@@ -5,7 +5,7 @@ sudo: false
 rvm:
 - "2.2.2"
 - "2.3.1"
-- "2.4.0"
+- "2.4.1"
 
 gemfile:
 - gemfiles/activesupport42.gemfile
@@ -14,7 +14,7 @@ gemfile:
 
 matrix:
   exclude:
-    - rvm: "2.4.0"
+    - rvm: "2.4.1"
       gemfile: gemfiles/activesupport42.gemfile
 
 env:
